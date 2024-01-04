@@ -1,0 +1,141 @@
+:root {
+    /* Primary coloros*/
+    --color-primary-white: #FFFFFF;
+    --color-primary-blue: #2B7FFF;
+    --color-primary-dark-blue: #011C44;
+    --color-primary-black: #000000;
+
+    /* Secondary colors */
+    --color-secondary-dark-gray: #4A4A4A;
+    --color-secondary-gray: #747272;
+    --color-secondary-blue: #011F4A;
+    --color-secondary-yellow: #FFD02B;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary-dark-blue);
+    background-color: var(--color-primary-white);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Play', sans-serif;
+    margin-top: 0;
+}
+
+h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Links */
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.16;
+}
+
+.link:hover {
+    color: var(--color-primary-blue);
+    font-weight: 700;
+}
+
+
+/* Button */
+.button {
+    background-color: var(--color-primary-blue);
+    color: var(--color-primary-white);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.16;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-primary-dark-blue);
+}
+
+
+/* Hero Section */
+.hero-small-title {
+    font-size: 18px;
+    line-height: 1.16;
+}
+
+.hero-title {
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+.hero-title .accent {
+    color: var(--color-primary-blue);
+}
+
+.hero-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+/* About us section*/
+.section-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.section-title .accent {
+    color: var(--color-primary-blue);
+}
+
+.section-text {
+    line-height: 1.72;
+}
+
+.section-text .accent {
+    font-weight: 600;
+}
+
+.section-text .capitalize {
+    text-transform: capitalize;
+}
+
+
+/* Why we section*/
+.why-we-text {
+    color: var(--color-primary-black);
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+
+/* Our procedures section */
+
+
+/* Contacts */
+.form-title {
+    color: var(--color-primary-white);
+    font-weight: 600;
+    line-height: 1.18;
+}
+
+.form-title .accent {
+    color: var(--color-primary-blue);
+}
